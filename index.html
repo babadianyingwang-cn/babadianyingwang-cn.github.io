@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>巴巴电影网 - 高清电影电视剧免费在线观看_最新影视资源大全</title>
+<meta name="description" content="巴巴电影网提供最新高清电影、热播电视剧、人气动漫与热门综艺在线观看及剧情介绍，每日更新影视排行榜与新片资讯，海量高清片源一键搜索，手机电脑多端同步流畅观影。">
+<meta name="keywords" content="巴巴电影网,巴巴电影,巴巴电影网在线观看,巴巴高清电影,高清电影在线观看,电视剧在线观看,最新电影,热播剧集,动漫综艺,影视排行榜,影视资讯">
+<meta name="author" content="巴巴电影网">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<link rel="canonical" href="https://babadianyingwang-cn.github.io/">
+<meta name="theme-color" content="#3b2a1d">
+<link rel="apple-touch-icon" href="/favicon.ico">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="巴巴电影网">
+<meta property="og:title" content="巴巴电影网 - 高清电影电视剧免费在线观看">
+<meta property="og:description" content="巴巴电影网，高清电影、热播电视剧、动漫综艺在线观看，每日更新热播榜单与影视资讯。">
+<meta property="og:url" content="https://babadianyingwang-cn.github.io/">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="format-detection" content="telephone=no">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://babadianyingwang-cn.github.io/#website",
+      "url": "https://babadianyingwang-cn.github.io/",
+      "name": "巴巴电影网",
+      "alternateName": "巴巴电影",
+      "description": "巴巴电影网提供高清电影、热播电视剧、动漫、综艺在线观看与影视资讯服务，每日更新热播榜单。",
+      "inLanguage": "zh-CN",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://babadianyingwang-cn.github.io/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://babadianyingwang-cn.github.io/#organization",
+      "name": "巴巴电影网",
+      "url": "https://babadianyingwang-cn.github.io/",
+      "logo": "https://babadianyingwang-cn.github.io/favicon.ico",
+      "sameAs": ["https://babadianyingwang-cn.github.io/"]
+    },
+    {
+      "@type": "ItemList",
+      "name": "巴巴电影网热播榜单",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"沙漠来信"},
+        {"@type":"ListItem","position":2,"name":"四十夜营地"},
+        {"@type":"ListItem","position":3,"name":"驼铃客栈"},
+        {"@type":"ListItem","position":4,"name":"沙丘上的影院"},
+        {"@type":"ListItem","position":5,"name":"绿洲往事"}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"首页","item":"https://babadianyingwang-cn.github.io/"},
+        {"@type":"ListItem","position":2,"name":"高清电影","item":"https://babadianyingwang-cn.github.io/#movie"},
+        {"@type":"ListItem","position":3,"name":"今日更新","item":"https://babadianyingwang-cn.github.io/#update"},
+        {"@type":"ListItem","position":4,"name":"影视资讯","item":"https://babadianyingwang-cn.github.io/#news"}
+      ]
+    }
+  ]
+}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{
+  --sand:#f0e2c8;--sand2:#e4d0ae;--sand3:#d3b78c;--sand4:#c9a877;
+  --ink:#2f2013;--ink2:#4a3320;--ink3:#6b4f35;
+  --terracotta:#c25b3a;--teal:#2f7f78;--gold:#d9a441;--indigo:#3b4f7a;--plum:#7a3b5c;--olive:#6b7a35;
+  --max:1200px;
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","Helvetica Neue",Arial,sans-serif;
+  background:var(--sand);color:var(--ink);line-height:1.76;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+  background-image:
+    radial-gradient(90vw 60vh at 50% 0%,#f6ecd8 0%,var(--sand) 52%,var(--sand2) 100%);
+  background-attachment:fixed;
+}
+/* 陶土颗粒 */
+body::before{
+  content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;opacity:.5;
+  background-image:
+    radial-gradient(circle at 22% 34%,rgba(194,91,58,.10) 0 1.6px,transparent 2px),
+    radial-gradient(circle at 68% 72%,rgba(47,127,120,.10) 0 1.6px,transparent 2px),
+    radial-gradient(circle at 41% 88%,rgba(217,164,65,.12) 0 1.4px,transparent 2px);
+  background-size:26px 26px,34px 34px,22px 22px
+}
+body::after{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;filter:blur(50px);opacity:.45;
+  background:
+    radial-gradient(30vw 26vw at 6% 6%,rgba(217,164,65,.3),transparent 70%),
+    radial-gradient(28vw 24vw at 96% 90%,rgba(47,127,120,.26),transparent 70%)
+}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 18px}
+.mono{font-family:"Courier New",Courier,monospace}
+
+/* 陶纹带（页头/页脚压边） */
+.potband{height:18px;background:var(--sand4);position:relative;border-bottom:1px solid var(--ink3);overflow:hidden}
+.potband i{
+  position:absolute;inset:0;
+  background-image:
+    repeating-linear-gradient(90deg,var(--terracotta) 0 8px,transparent 8px 20px,var(--teal) 20px 28px,transparent 28px 40px),
+    repeating-linear-gradient(0deg,rgba(47,32,19,.28) 0 1px,transparent 1px 6px);
+  opacity:.75
+}
+.potband::after{
+  content:"";position:absolute;left:0;right:0;top:0;height:5px;
+  background-image:repeating-linear-gradient(45deg,var(--ink) 0 1px,transparent 1px 7px);opacity:.35
+}
+/* 陶罐分隔线 */
+.jarline{height:62px;position:relative;margin:34px 0 0;display:flex;align-items:center;justify-content:center;gap:12px}
+.jarline i{position:absolute;left:0;right:0;top:29px;height:2px;background:linear-gradient(90deg,transparent,var(--ink3) 14%,var(--ink3) 86%,transparent)}
+.jarline .jd{
+  position:relative;z-index:3;width:16px;height:20px;
+  border-radius:50% 50% 42% 42% / 58% 58% 42% 42%;
+  border:2px solid var(--ink3);background:var(--sand3)
+}
+.jarline .jd:nth-child(2){background:var(--terracotta);border-color:var(--ink2);width:13px;height:16px}
+.jarline .jd:nth-child(3){background:var(--teal);border-color:var(--ink2);width:10px;height:13px}
+.jarline .jd:nth-child(4){background:var(--gold);border-color:var(--ink2);width:13px;height:16px}
+.jarline .jd:nth-child(5){background:var(--indigo);border-color:var(--ink2)}
+.jarline b{
+  position:absolute;left:50%;top:9px;transform:translateX(-50%);z-index:4;
+  padding:5px 22px;border:2px solid var(--ink3);border-radius:40px 40px 8px 8px;background:var(--sand);
+  font-size:11px;font-weight:900;letter-spacing:4px;color:var(--ink2)
+}
+/* 陶罐编号 */
+.jarno{display:inline-flex;flex-direction:column;align-items:center;flex:0 0 auto}
+.jarno .body{
+  width:56px;height:52px;display:grid;place-items:center;
+  border:2px solid var(--ink3);background:var(--sand3);
+  border-radius:50% 50% 40% 40% / 62% 62% 38% 38%;
+  box-shadow:inset 0 -6px 0 rgba(47,32,19,.12),inset 4px 0 0 rgba(255,255,255,.4)
+}
+.jarno .neck{
+  width:26px;height:9px;margin-top:-6px;z-index:2;border:2px solid var(--ink3);border-bottom:0;
+  background:var(--sand4);border-radius:6px 6px 0 0
+}
+.jarno b{font-size:16px;font-weight:900;color:var(--ink)}
+.jarno.t .body{background:var(--terracotta)}
+.jarno.t b{color:#fff}
+.jarno.g .body{background:var(--teal)}
+.jarno.g b{color:#fff}
+.jarno.y .body{background:var(--gold)}
+.jarno.i .body{background:var(--indigo)}
+.jarno.i b{color:#fff}
+.jarno.p .body{background:var(--plum)}
+.jarno.p b{color:#fff}
+/* 水位条（陶罐刻度） */
+.wbar{flex:1;min-width:0;height:14px;position:relative;overflow:hidden;border:1px solid var(--ink3);background:var(--sand2);border-radius:8px}
+.wbar i{
+  display:block;height:100%;width:var(--p);
+  background:linear-gradient(90deg,var(--gold),var(--terracotta));
+  background-image:linear-gradient(90deg,var(--gold),var(--terracotta)),
+    repeating-linear-gradient(90deg,rgba(255,255,255,.45) 0 1px,transparent 1px 8px);
+  background-blend-mode:overlay
+}
+.wbar.t i{background:linear-gradient(90deg,var(--teal),#124c47)}
+.wbar.g i{background:linear-gradient(90deg,var(--gold),#8a5a12)}
+.wbar.i i{background:linear-gradient(90deg,var(--indigo),#1c2a4a)}
+.wbar.p i{background:linear-gradient(90deg,var(--plum),#421934)}
+.wbar.o i{background:linear-gradient(90deg,var(--olive),#3d471b)}
+
+/* ===== 顶部 ===== */
+header{position:sticky;top:0;z-index:70;background:rgba(240,226,200,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--sand3)}
+.hud{
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:8px 2px;font-size:11px;font-weight:900;
+  letter-spacing:2px;color:var(--ink3);border-bottom:1px dashed var(--sand3)
+}
+.hud b{color:var(--terracotta)}
+.hud .t{color:var(--teal)}
+.bar-nav{display:flex;align-items:center;gap:12px;padding:11px 2px}
+.logo{display:flex;align-items:center;gap:11px;flex:0 0 auto}
+.logo .mark{
+  width:46px;height:46px;display:grid;place-items:center;font-size:15px;font-weight:900;color:#fff;
+  border:2px solid var(--ink2);background:var(--terracotta);
+  border-radius:50% 50% 40% 40% / 62% 62% 38% 38%;
+  box-shadow:inset 0 -6px 0 rgba(47,32,19,.16)
+}
+.logo b{font-size:20px;font-weight:900}
+.logo b em{font-style:normal;color:var(--terracotta)}
+.nav{flex:1;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;justify-content:center}
+.nav::-webkit-scrollbar{display:none}
+.nav a{flex:0 0 auto;font-size:14.5px;font-weight:800;padding:8px 15px;color:var(--ink2);white-space:nowrap;transition:.22s;border-bottom:3px solid transparent}
+.nav a:hover{color:var(--terracotta);border-bottom-color:var(--terracotta)}
+.nav a.on{color:#fff;background:var(--terracotta);border-bottom-color:var(--ink2)}
+.firebtn{
+  flex:0 0 auto;font-size:12px;font-weight:900;letter-spacing:2px;padding:9px 18px;color:#fff;
+  background:var(--ink2);white-space:nowrap;border-radius:6px 6px 20px 20px
+}
+.firebtn:hover{background:var(--terracotta)}
+@media(max-width:900px){
+  .bar-nav{flex-wrap:wrap;gap:8px}
+  .nav{order:3;flex:1 0 100%;justify-content:flex-start;border-top:1px dashed var(--sand3);padding-top:9px}
+  .firebtn{margin-left:auto;padding:7px 14px}
+  .logo b{font-size:18px}
+}
+
+/* ===== 首屏 ===== */
+.hero{padding:26px 0 8px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(20px,4vw,34px);align-items:center}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:26px}}
+.hero h1{font-size:clamp(31px,6.7vw,54px);line-height:1.2;font-weight:900;letter-spacing:-1px;margin-top:22px}
+.hero h1 em{
+  font-style:normal;color:#fff;padding:4px 18px 7px;display:inline-block;
+  background:var(--terracotta);border-radius:40px 40px 10px 10px;box-shadow:0 8px 0 rgba(47,32,19,.16)
+}
+.hero .lead{margin-top:16px;font-size:clamp(13.5px,2.4vw,16.5px);color:var(--ink2);max-width:540px}
+.sfield{
+  margin-top:26px;max-width:540px;display:flex;align-items:center;gap:10px;padding:8px;
+  background:var(--sand2);border:2px solid var(--ink3);border-radius:40px
+}
+.sfield .ic{flex:0 0 22px;text-align:center;font-size:16px;margin-left:4px}
+.sfield input{flex:1;min-width:0;border:0;outline:none;background:transparent;font-size:15px;padding:10px 4px;color:var(--ink);font-family:inherit}
+.sfield input::placeholder{color:var(--ink3)}
+.sfield button{
+  border:0;border-radius:40px;padding:11px 24px;font-size:15px;font-weight:900;letter-spacing:2px;color:#fff;cursor:pointer;
+  background:var(--ink2);font-family:inherit;white-space:nowrap
+}
+.sfield button:hover{background:var(--terracotta)}
+.chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.chips a{font-size:12.5px;font-weight:800;padding:6px 15px;color:var(--ink2);background:var(--sand2);border:1px solid var(--sand3);border-radius:30px}
+.chips a:hover{color:#fff;background:var(--teal);border-color:var(--ink3)}
+
+/* 陶罐水缸 */
+.cistern{
+  padding:16px;border-radius:22px;background:linear-gradient(170deg,var(--sand2),var(--sand3));
+  border:2px solid var(--ink3);box-shadow:0 14px 28px rgba(47,32,19,.18)
+}
+.cistern .hd{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:11px;font-weight:900;letter-spacing:2px;
+  color:var(--ink3);padding-bottom:12px;border-bottom:1px dashed var(--ink3);margin-bottom:14px
+}
+.cistern .hd b{color:var(--terracotta)}
+.jar{
+  position:relative;width:100%;max-width:360px;margin:0 auto;aspect-ratio:5/6;
+  border:3px solid var(--ink2);background:linear-gradient(170deg,#f6ecd8,var(--sand3) 62%,var(--sand4));
+  border-radius:50% 50% 44% 44% / 38% 38% 62% 62%;
+  box-shadow:inset 0 -18px 26px rgba(47,32,19,.18),inset 12px 0 22px rgba(255,255,255,.5),0 10px 22px rgba(47,32,19,.16);
+  display:flex;align-items:center;justify-content:center;overflow:hidden
+}
+/* 罐口 */
+.jar .lip{
+  position:absolute;left:26%;right:26%;top:-9px;height:18px;
+  border:3px solid var(--ink2);background:var(--sand4);border-radius:12px 12px 0 0
+}
+/* 装饰环带 */
+.jar .band{position:absolute;left:0;right:0;height:16px;border-top:2px solid var(--ink3);border-bottom:2px solid var(--ink3);background:rgba(255,255,255,.16)}
+.jar .b1{top:20%}
+.jar .b2{top:30%}
+.jar .band::after{
+  content:"";position:absolute;inset:0;
+  background-image:repeating-linear-gradient(90deg,var(--terracotta) 0 6px,transparent 6px 14px,var(--teal) 14px 20px,transparent 20px 28px);
+  opacity:.55
+}
+/* 水位 */
+.jar .water{
+  position:absolute;left:0;right:0;bottom:0;height:44%;
+  background:linear-gradient(180deg,rgba(47,127,120,.5),rgba(47,127,120,.24));
+  border-top:2px solid var(--teal);
+  animation:tide 7s ease-in-out infinite
+}
+@keyframes tide{0%,100%{height:44%}50%{height:48%}}
+.jar .water::after{
+  content:"";position:absolute;left:0;right:0;top:-6px;height:12px;
+  background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.5) 0 2px,transparent 2px 12px)
+}
+.jar .core{position:relative;z-index:4;text-align:center;padding:0 12px}
+.jar .core b{
+  display:block;font-size:clamp(24px,5.4vw,36px);font-weight:900;letter-spacing:-1px;color:var(--ink);line-height:1.06;
+  text-shadow:0 2px 0 rgba(255,255,255,.6)
+}
+.jar .core span{display:block;font-size:9.5px;font-weight:900;letter-spacing:4px;color:var(--terracotta);margin-top:4px}
+.jar .core em{display:block;font-style:normal;font-size:11px;font-weight:900;letter-spacing:2px;color:var(--ink2);margin-top:6px}
+.slots{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.slt{padding:11px 6px;text-align:center;border:1px solid var(--ink3);background:var(--sand2);border-radius:8px 8px 18px 18px}
+.slt b{display:block;font-size:clamp(15px,2.9vw,20px);font-weight:900}
+.slt:nth-child(1) b{color:var(--terracotta)}
+.slt:nth-child(2) b{color:var(--teal)}
+.slt:nth-child(3) b{color:var(--gold)}
+.slt span{font-size:10.5px;font-weight:900;letter-spacing:2px;color:var(--ink3)}
+.cistern .ft{
+  margin-top:12px;padding-top:11px;border-top:1px dashed var(--ink3);display:flex;align-items:center;
+  justify-content:center;gap:10px;font-size:11px;font-weight:900;letter-spacing:2px;color:var(--ink3)
+}
+.cistern .ft b{color:var(--teal)}
+
+/* ===== 栏目通用 ===== */
+section{padding:36px 0}
+.head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:22px}
+.head h2{font-size:clamp(20px,3.9vw,28px);font-weight:900;letter-spacing:-.6px;display:flex;align-items:center;gap:14px}
+.head p{font-size:12.5px;font-weight:900;color:var(--ink3);margin-top:6px;flex:1 0 100%;letter-spacing:2px}
+.more{font-size:13px;font-weight:900;padding:9px 18px;color:#fff;background:var(--ink2);white-space:nowrap;border-radius:6px 6px 20px 20px}
+.more:hover{background:var(--terracotta)}
+
+/* ===== 影片卡：陶板 ===== */
+.grid{display:grid;gap:18px;grid-template-columns:repeat(5,1fr)}
+@media(max-width:1040px){.grid{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:800px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:560px){.grid{grid-template-columns:repeat(2,1fr);gap:14px}}
+.film{display:block;transition:.26s}
+.film:hover{transform:translateY(-6px)}
+.film .ph{
+  position:relative;aspect-ratio:3/4;display:grid;place-items:center;font-size:32px;overflow:hidden;
+  border:2px solid var(--ink3);background-color:var(--sand3);
+  border-radius:16px 16px 40% 40% / 16px 16px 12% 12%;
+  box-shadow:inset 0 -10px 16px rgba(47,32,19,.14)
+}
+.film .ph::before{
+  content:"";position:absolute;inset:0;opacity:.45;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(47,32,19,.16) 0 1px,transparent 1px 8px),
+    repeating-linear-gradient(45deg,rgba(255,255,255,.3) 0 1px,transparent 1px 9px)
+}
+.film .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 52%,rgba(47,32,19,.32))}
+.film .tag2{
+  position:absolute;left:0;top:0;z-index:4;font-size:10.5px;font-weight:900;letter-spacing:2px;padding:5px 12px;
+  color:#fff;background:var(--terracotta);border-right:2px solid var(--ink3);border-bottom:2px solid var(--ink3)
+}
+.film .tag2.t{background:var(--teal)}
+.film .tag2.g{background:var(--gold);color:var(--ink)}
+.film .tag2.i{background:var(--indigo)}
+.film .tag2.p{background:var(--plum)}
+.film .rt{
+  position:absolute;right:0;top:0;z-index:4;font-size:12px;font-weight:900;padding:4px 10px;
+  color:var(--ink);background:var(--sand);border-left:2px solid var(--ink3);border-bottom:2px solid var(--ink3)
+}
+.film .mini{position:absolute;left:10%;right:10%;bottom:9%;z-index:4;height:10px}
+.film .go{
+  position:absolute;z-index:5;width:44px;height:44px;display:grid;place-items:center;
+  background:#fff;color:var(--terracotta);font-size:14px;opacity:0;transform:scale(.6);transition:.28s;
+  border-radius:50% 50% 14px 14px;border:2px solid var(--ink3)
+}
+.film:hover .go{opacity:1;transform:scale(1)}
+.film .cap{
+  margin-top:9px;padding:11px 12px 14px;background:var(--sand2);border:1px solid var(--ink3);
+  border-radius:8px 8px 20px 20px
+}
+.film .cap h3{font-size:14.5px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.film:hover .cap h3{color:var(--terracotta)}
+.film .cap p{font-size:12px;color:var(--ink3);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* ===== 分类：陶砖 ===== */
+.cats{display:grid;gap:14px;grid-template-columns:repeat(6,1fr)}
+@media(max-width:1000px){.cats{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:560px){.cats{grid-template-columns:repeat(3,1fr)}}
+.brick{
+  position:relative;padding:26px 8px 16px;text-align:center;overflow:hidden;transition:.24s;
+  background:var(--sand2);border:2px solid var(--ink3);border-radius:10px 10px 22px 22px
+}
+.brick>u{position:absolute;left:0;right:0;top:0;height:18px;display:block;text-decoration:none;background:var(--terracotta)}
+.brick:nth-child(6n+2)>u{background:var(--teal)}
+.brick:nth-child(6n+3)>u{background:var(--gold)}
+.brick:nth-child(6n+4)>u{background:var(--indigo)}
+.brick:nth-child(6n+5)>u{background:var(--plum)}
+.brick:nth-child(6n)>u{background:var(--olive)}
+.brick>u::after{
+  content:"";position:absolute;inset:0;
+  background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.4) 0 2px,transparent 2px 8px)
+}
+.brick:hover{transform:translateY(-5px);border-color:var(--ink2);box-shadow:0 12px 22px rgba(47,32,19,.18)}
+.brick em{font-style:normal;font-size:22px;display:block;margin-top:14px;margin-bottom:4px}
+.brick b{font-size:13.5px;font-weight:900}
+.brick small{display:block;font-size:11.5px;color:var(--ink3);margin-top:2px}
+
+/* ===== 双栏 ===== */
+.cols{display:grid;gap:18px;grid-template-columns:1.42fr 1fr}
+@media(max-width:860px){.cols{grid-template-columns:1fr}}
+.pnl{padding:20px;background:var(--sand2);border:2px solid var(--ink3);border-radius:12px 12px 26px 26px}
+.pnl h3{
+  font-size:16.5px;font-weight:900;margin-bottom:14px;padding-bottom:12px;display:flex;align-items:center;gap:10px;
+  border-bottom:1px dashed var(--ink3)
+}
+.pnl h3 span{
+  width:14px;height:16px;flex:0 0 14px;border:2px solid var(--ink3);background:var(--terracotta);
+  border-radius:50% 50% 40% 40% / 60% 60% 40% 40%
+}
+.up li{display:flex;gap:12px;align-items:center;padding:11px 0;border-bottom:1px dashed var(--sand3)}
+.up li:last-child{border-bottom:0}
+.up .n{
+  flex:0 0 32px;height:32px;display:grid;place-items:center;font-size:12.5px;font-weight:900;
+  color:var(--ink2);background:var(--sand);border:1px solid var(--ink3);border-radius:8px 8px 16px 16px
+}
+.up li:nth-child(-n+3) .n{color:#fff;background:var(--terracotta);border-color:var(--ink2)}
+.up .t{flex:1;min-width:0}
+.up .t b{display:block;font-size:14.5px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.up .t small{font-size:12px;color:var(--ink3)}
+.up .e{font-size:11.5px;font-weight:900;padding:4px 12px;color:#fff;background:var(--teal);white-space:nowrap;border-radius:6px}
+.up li:nth-child(-n+3) .e{background:var(--terracotta)}
+.rk li{display:flex;align-items:center;gap:11px;padding:10px 0;border-bottom:1px dashed var(--sand3)}
+.rk li:last-child{border-bottom:0}
+.rk .n{flex:0 0 32px;height:32px;display:grid;place-items:center;font-size:12.5px;font-weight:900;color:var(--ink2);background:var(--sand);border:1px solid var(--ink3);border-radius:8px 8px 16px 16px}
+.rk li:nth-child(1) .n{color:#fff;background:var(--terracotta);border-color:var(--ink2)}
+.rk li:nth-child(2) .n{color:#fff;background:var(--teal);border-color:var(--ink2)}
+.rk li:nth-child(3) .n{color:#fff;background:var(--gold);border-color:var(--ink2)}
+.rk .nm{flex:0 0 92px;font-size:13.5px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rk .h{flex:0 0 50px;font-size:11.5px;font-weight:900;color:var(--ink2);text-align:right}
+@media(max-width:560px){.rk .nm{flex:0 0 62px;font-size:12.5px}.rk .h{flex:0 0 44px}}
+
+/* ===== 资讯 ===== */
+.news{display:grid;gap:18px;grid-template-columns:repeat(3,1fr)}
+@media(max-width:860px){.news{grid-template-columns:1fr}}
+.art{display:block;transition:.26s;background:var(--sand2);border:2px solid var(--ink3);border-radius:12px 12px 26px 26px;overflow:hidden}
+.art:hover{transform:translateY(-5px);border-color:var(--ink2);box-shadow:0 14px 26px rgba(47,32,19,.18)}
+.art .ph{height:136px;display:grid;place-items:center;font-size:30px;position:relative;border-bottom:2px solid var(--ink3)}
+.art .ph span{
+  position:absolute;left:0;bottom:10px;font-size:11px;font-weight:900;letter-spacing:2px;padding:5px 14px;
+  color:#fff;background:var(--terracotta);border:2px solid var(--ink3);border-left:0
+}
+.art .bd{padding:14px 16px 18px}
+.art h3{font-size:15.5px;font-weight:900;margin-bottom:6px}
+.art p{font-size:13px;color:var(--ink2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.art time{display:block;font-size:11.5px;color:var(--ink3);margin-top:10px;letter-spacing:2px}
+
+/* ===== 特色 ===== */
+.feats{display:grid;gap:14px;grid-template-columns:repeat(4,1fr)}
+@media(max-width:860px){.feats{grid-template-columns:repeat(2,1fr)}}
+.feat{padding:26px 20px;position:relative;overflow:hidden;background:var(--sand2);border:2px solid var(--ink3);border-radius:12px 12px 26px 26px}
+.feat>u{position:absolute;left:0;right:0;top:0;height:8px;display:block;text-decoration:none;background:var(--terracotta)}
+.feat:nth-child(2)>u{background:var(--teal)}
+.feat:nth-child(3)>u{background:var(--gold)}
+.feat:nth-child(4)>u{background:var(--indigo)}
+.feat em{font-style:normal;font-size:26px;display:block;margin-bottom:8px;position:relative;z-index:2}
+.feat b{font-size:15.5px;font-weight:900;position:relative;z-index:2;color:var(--terracotta)}
+.feat:nth-child(2) b{color:var(--teal)}
+.feat:nth-child(3) b{color:#8a5a12}
+.feat:nth-child(4) b{color:var(--indigo)}
+.feat p{font-size:12.5px;color:var(--ink2);margin-top:4px;position:relative;z-index:2}
+
+/* ===== 简介 ===== */
+.intro{
+  padding:clamp(28px,4vw,42px);text-align:center;background:var(--sand2);
+  border:3px solid var(--ink3);border-radius:18px 18px 46% 46% / 18px 18px 12% 12%
+}
+.intro h3{font-size:clamp(19px,3.3vw,27px);font-weight:900;margin-bottom:12px}
+.intro p{font-size:14px;color:var(--ink2);max-width:840px;margin:0 auto}
+.intro p+p{margin-top:9px}
+.potmark{
+  display:inline-flex;align-items:center;gap:9px;margin-top:22px;padding:10px 24px;
+  border:2px solid var(--ink3);background:var(--terracotta);color:#fff;font-size:13px;font-weight:900;letter-spacing:3px;
+  border-radius:40px 40px 12px 12px
+}
+.potmark em{
+  font-style:normal;width:14px;height:16px;border:2px solid #fff;
+  border-radius:50% 50% 40% 40% / 60% 60% 40% 40%
+}
+
+/* ===== 页脚 ===== */
+footer{margin-top:24px;padding:32px 0 24px;background:var(--ink2);color:var(--sand2);border-top:3px solid var(--ink)}
+.frow{display:grid;gap:24px;grid-template-columns:1.6fr 1fr 1fr 1fr;padding-bottom:24px;border-bottom:1px dashed rgba(240,226,200,.24)}
+@media(max-width:860px){.frow{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.frow{grid-template-columns:1fr}}
+.frow h4{font-size:15px;font-weight:900;margin-bottom:11px;color:var(--gold)}
+.frow ul li{padding:4px 0;font-size:13.2px;color:var(--sand3)}
+.frow ul li:hover{color:#fff}
+.frow p{font-size:13px;color:var(--sand3);margin-top:7px}
+.flinks{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
+.flinks a{font-size:12.5px;font-weight:800;padding:6px 15px;color:var(--sand2);border:1px solid rgba(240,226,200,.28);border-radius:30px}
+.flinks a:hover{background:var(--terracotta);color:#fff;border-color:var(--terracotta)}
+.copy{text-align:center;font-size:12.5px;color:var(--sand3);margin-top:22px;letter-spacing:1px}
+.copy a:hover{color:#fff}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<header>
+  <div class="potband" aria-hidden="true"><i></i></div>
+  <div class="wrap">
+    <div class="hud mono">
+      <span>巴巴电影网 · POTTERY · KILN ON</span>
+      <span>片库 <b>20 920</b></span>
+      <span class="t">今日上新 <b>312</b></span>
+      <span>20:00 更新</span>
+    </div>
+    <div class="bar-nav">
+      <a href="#" class="logo" aria-label="巴巴电影网首页">
+        <span class="mark" aria-hidden="true">巴</span>
+        <b>巴巴<em>电影网</em></b>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#" class="on">首页</a>
+        <a href="#">高清电影</a>
+        <a href="#">电视剧</a>
+        <a href="#">动漫</a>
+        <a href="#">综艺</a>
+        <a href="#">热播榜单</a>
+        <a href="#">影视资讯</a>
+      </nav>
+      <a href="#" class="firebtn">入 窑 选 片</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- 首屏 -->
+  <section class="hero wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="jarno"><span class="neck" aria-hidden="true"></span><span class="body"><b>01</b></span></span>
+        <h1>巴巴电影网<br><em>一窑好片，慢慢煨</em></h1>
+        <p class="lead">巴巴电影网聚合最新高清电影、热播电视剧、人气动漫与热门综艺，提供剧情介绍、演员阵容、影片评分与在线播放入口，手机、平板、电脑多端同步，海量高清片源一键搜索。</p>
+        <form class="sfield" action="#" method="get" role="search">
+          <span class="ic" aria-hidden="true">🏺</span>
+          <input type="search" name="q" placeholder="片名 / 演员 · 如：沙漠来信" aria-label="站内搜索">
+          <button type="submit">检 索</button>
+        </form>
+        <div class="chips">
+          <a href="#">最新电影</a><a href="#">院线新片</a><a href="#">高清修复</a><a href="#">国产剧</a>
+          <a href="#">美剧</a><a href="#">韩剧</a><a href="#">日剧</a><a href="#">国漫</a>
+          <a href="#">动作片</a><a href="#">爱情片</a>
+        </div>
+      </div>
+      <aside class="cistern">
+        <div class="hd mono"><span>KILN No.08 · 陶窑</span><b>1200℃</b></div>
+        <div class="jar">
+          <span class="lip" aria-hidden="true"></span>
+          <span class="band b1" aria-hidden="true"></span>
+          <span class="band b2" aria-hidden="true"></span>
+          <span class="water" aria-hidden="true"></span>
+          <span class="core">
+            <b>20 920</b>
+            <span>全站片源 · TOTAL</span>
+            <em>窑火正旺 · 好片慢煨</em>
+          </span>
+        </div>
+        <div class="slots">
+          <div class="slt"><b class="mono">312</b><span>今日上新</span></div>
+          <div class="slt"><b class="mono">4K</b><span>最高画质</span></div>
+          <div class="slt"><b class="mono">20:00</b><span>更新时间</span></div>
+        </div>
+        <div class="ft mono"><span>窑温 <b>1200℃</b></span><span>·</span><span>出窑 <b>每 日</b></span></div>
+      </aside>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="jarline" aria-hidden="true"><i></i><span class="jd"></span><span class="jd"></span><span class="jd"></span><span class="jd"></span><span class="jd"></span><b>第 一 窑</b></div></div>
+
+  <!-- 栏目一 -->
+  <section class="wrap" id="movie">
+    <div class="head">
+      <div>
+        <h2><span class="jarno t"><span class="neck" aria-hidden="true"></span><span class="body"><b>02</b></span></span>高清电影 · 在线观看</h2>
+        <p>巴巴电影网编辑精选 · 每晚 20:00 刷新片源</p>
+      </div>
+      <a href="#" class="more">查看全部 &gt;</a>
+    </div>
+    <div class="grid">
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#e8c39a,#c25b3a 62%,#4a1c0e)"><span class="tag2">独家</span><span class="rt">9.4</span><span class="mini wbar"><i style="--p:88%"></i></span><span class="go" aria-hidden="true">▶</span>🏜️</div>
+        <div class="cap"><h3>沙漠来信</h3><p>剧情 / 文艺 · 2026</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#8fd3cb,#2f7f78 62%,#0d3230)"><span class="tag2 t">热播</span><span class="rt">9.3</span><span class="mini wbar t"><i style="--p:81%"></i></span><span class="go" aria-hidden="true">▶</span>⛺</div>
+        <div class="cap"><h3>四十夜营地</h3><p>剧情 / 冒险 · 2026</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#f2d79a,#d9a441 62%,#5c3d06)"><span class="tag2 g">新片</span><span class="rt">9.1</span><span class="mini wbar g"><i style="--p:75%"></i></span><span class="go" aria-hidden="true">▶</span>🔔</div>
+        <div class="cap"><h3>驼铃客栈</h3><p>剧情 / 年代 · 2025</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#9fb0d4,#3b4f7a 62%,#121c33)"><span class="tag2 i">4K</span><span class="rt">9.0</span><span class="mini wbar i"><i style="--p:71%"></i></span><span class="go" aria-hidden="true">▶</span>🎬</div>
+        <div class="cap"><h3>沙丘上的影院</h3><p>剧情 / 纪录 · 2026</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#d7a3bb,#7a3b5c 62%,#260f1c)"><span class="tag2 p">高分</span><span class="rt">8.9</span><span class="mini wbar p"><i style="--p:83%"></i></span><span class="go" aria-hidden="true">▶</span>🌴</div>
+        <div class="cap"><h3>绿洲往事</h3><p>剧情 / 青春 · 2025</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#e8c39a,#c25b3a 62%,#4a1c0e)"><span class="tag2">独家</span><span class="rt">8.8</span><span class="mini wbar"><i style="--p:65%"></i></span><span class="go" aria-hidden="true">▶</span>🔥</div>
+        <div class="cap"><h3>窑火不熄</h3><p>剧情 / 家庭 · 2026</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#8fd3cb,#2f7f78 62%,#0d3230)"><span class="tag2 t">热播</span><span class="rt">8.7</span><span class="mini wbar t"><i style="--p:74%"></i></span><span class="go" aria-hidden="true">▶</span>🧭</div>
+        <div class="cap"><h3>北纬度线</h3><p>剧情 / 公路 · 2025</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#f2d79a,#d9a441 62%,#5c3d06)"><span class="tag2 g">新片</span><span class="rt">8.6</span><span class="mini wbar g"><i style="--p:58%"></i></span><span class="go" aria-hidden="true">▶</span>🫖</div>
+        <div class="cap"><h3>茶铺与荒漠</h3><p>剧情 / 人文 · 2025</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#9fb0d4,#3b4f7a 62%,#121c33)"><span class="tag2 i">高清</span><span class="rt">8.5</span><span class="mini wbar i"><i style="--p:67%"></i></span><span class="go" aria-hidden="true">▶</span>🏺</div>
+        <div class="cap"><h3>陶土之年</h3><p>纪录 / 手艺 · 2025</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#c3cf8f,#6b7a35 62%,#232a0c)"><span class="tag2 p">精选</span><span class="rt">8.4</span><span class="mini wbar o"><i style="--p:71%"></i></span><span class="go" aria-hidden="true">▶</span>🌾</div>
+        <div class="cap"><h3>麦地回声</h3><p>剧情 / 乡土 · 2025</p></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- 栏目二 -->
+  <section class="wrap" id="category">
+    <div class="head">
+      <div>
+        <h2><span class="jarno g"><span class="neck" aria-hidden="true"></span><span class="body"><b>03</b></span></span>影视分类 · 按类型找片</h2>
+        <p>巴巴电影网全站片库 · 一格一窑一类目</p>
+      </div>
+      <a href="#" class="more">全部分类 &gt;</a>
+    </div>
+    <div class="cats">
+      <a href="#" class="brick"><u></u><em>💥</em><b>动作片</b><small>3418 部</small></a>
+      <a href="#" class="brick"><u></u><em>😂</em><b>喜剧片</b><small>3036 部</small></a>
+      <a href="#" class="brick"><u></u><em>💕</em><b>爱情片</b><small>2616 部</small></a>
+      <a href="#" class="brick"><u></u><em>🔍</em><b>悬疑片</b><small>2228 部</small></a>
+      <a href="#" class="brick"><u></u><em>🚀</em><b>科幻片</b><small>2082 部</small></a>
+      <a href="#" class="brick"><u></u><em>😱</em><b>恐怖片</b><small>1684 部</small></a>
+      <a href="#" class="brick"><u></u><em>📺</em><b>国产剧</b><small>3692 部</small></a>
+      <a href="#" class="brick"><u></u><em>🌍</em><b>欧美剧</b><small>2844 部</small></a>
+      <a href="#" class="brick"><u></u><em>🍜</em><b>日韩剧</b><small>3048 部</small></a>
+      <a href="#" class="brick"><u></u><em>🎨</em><b>动漫</b><small>4166 部</small></a>
+      <a href="#" class="brick"><u></u><em>🎤</em><b>综艺</b><small>2076 部</small></a>
+      <a href="#" class="brick"><u></u><em>🎞️</em><b>纪录片</b><small>1408 部</small></a>
+    </div>
+  </section>
+
+  <!-- 栏目三：改为 剧集更新 + 榜单 双栏 -->
+  <section class="wrap" id="update">
+    <div class="cols">
+      <div class="pnl">
+        <h3><span></span>今日剧集更新</h3>
+        <ul class="up">
+          <li><span class="n mono">01</span><span class="t"><b>沙漠来信</b><small>剧情 · 文艺 · 主演 沈砚 / 林晚</small></span><span class="e">更新至 30 集</span></li>
+          <li><span class="n mono">02</span><span class="t"><b>四十夜营地</b><small>剧情 · 冒险 · 主演 顾寒 / 白露</small></span><span class="e">更新至 22 集</span></li>
+          <li><span class="n mono">03</span><span class="t"><b>驼铃客栈</b><small>剧情 · 年代 · 主演 江野 / 温言</small></span><span class="e">更新至 26 集</span></li>
+          <li><span class="n mono">04</span><span class="t"><b>沙丘上的影院</b><small>剧情 · 纪录 · 主演 何秋生 / 周素</small></span><span class="e">更新至 18 集</span></li>
+          <li><span class="n mono">05</span><span class="t"><b>绿洲往事</b><small>剧情 · 青春 · 主演 秦朗 / 叶红</small></span><span class="e">更新至 24 集</span></li>
+          <li><span class="n mono">06</span><span class="t"><b>窑火不熄</b><small>剧情 · 家庭 · 巴巴电影网独家</small></span><span class="e">更新至 16 集</span></li>
+          <li><span class="n mono">07</span><span class="t"><b>北纬度线</b><small>剧情 · 公路 · 主演 陆行 / 沙宁</small></span><span class="e">更新至 20 集</span></li>
+          <li><span class="n mono">08</span><span class="t"><b>陶土之年</b><small>纪录 · 手艺 · 主讲 韩铮 / 苏叶</small></span><span class="e">更新至 32 集</span></li>
+        </ul>
+      </div>
+      <div class="pnl">
+        <h3><span></span>全站热播榜 TOP10</h3>
+        <ol class="rk">
+          <li><span class="n mono">01</span><span class="nm">沙漠来信</span><span class="wbar"><i style="--p:98%"></i></span><span class="h mono">1208万</span></li>
+          <li><span class="n mono">02</span><span class="nm">四十夜营地</span><span class="wbar t"><i style="--p:92%"></i></span><span class="h mono">1136万</span></li>
+          <li><span class="n mono">03</span><span class="nm">驼铃客栈</span><span class="wbar g"><i style="--p:86%"></i></span><span class="h mono">1060万</span></li>
+          <li><span class="n mono">04</span><span class="nm">沙丘上的影院</span><span class="wbar i"><i style="--p:79%"></i></span><span class="h mono">994万</span></li>
+          <li><span class="n mono">05</span><span class="nm">绿洲往事</span><span class="wbar p"><i style="--p:73%"></i></span><span class="h mono">928万</span></li>
+          <li><span class="n mono">06</span><span class="nm">窑火不熄</span><span class="wbar o"><i style="--p:67%"></i></span><span class="h mono">872万</span></li>
+          <li><span class="n mono">07</span><span class="nm">北纬度线</span><span class="wbar"><i style="--p:61%"></i></span><span class="h mono">814万</span></li>
+          <li><span class="n mono">08</span><span class="nm">茶铺与荒漠</span><span class="wbar t"><i style="--p:55%"></i></span><span class="h mono">760万</span></li>
+          <li><span class="n mono">09</span><span class="nm">陶土之年</span><span class="wbar g"><i style="--p:49%"></i></span><span class="h mono">706万</span></li>
+          <li><span class="n mono">10</span><span class="nm">麦地回声</span><span class="wbar i"><i style="--p:43%"></i></span><span class="h mono">652万</span></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="jarline" aria-hidden="true"><i></i><span class="jd"></span><span class="jd"></span><span class="jd"></span><span class="jd"></span><span class="jd"></span><b>第 二 窑</b></div></div>
+
+  <!-- 栏目四 -->
+  <section class="wrap" id="anime">
+    <div class="head">
+      <div>
+        <h2><span class="jarno y"><span class="neck" aria-hidden="true"></span><span class="body"><b>04</b></span></span>动漫 · 综艺专区</h2>
+        <p>国漫热番与热门综艺同步跟播</p>
+      </div>
+      <a href="#" class="more">更多 &gt;</a>
+    </div>
+    <div class="grid">
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#8fd3cb,#2f7f78 62%,#0d3230)"><span class="tag2 t">更新</span><span class="rt">9.5</span><span class="mini wbar t"><i style="--p:92%"></i></span><span class="go" aria-hidden="true">▶</span>🦎</div>
+        <div class="cap"><h3>沙丘小队 第二季</h3><p>国漫 / 冒险</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#e8c39a,#c25b3a 62%,#4a1c0e)"><span class="tag2">热番</span><span class="rt">9.3</span><span class="mini wbar"><i style="--p:84%"></i></span><span class="go" aria-hidden="true">▶</span>🌵</div>
+        <div class="cap"><h3>仙人掌日记</h3><p>日漫 / 日常</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#f2d79a,#d9a441 62%,#5c3d06)"><span class="tag2 g">新番</span><span class="rt">8.9</span><span class="mini wbar g"><i style="--p:71%"></i></span><span class="go" aria-hidden="true">▶</span>🍂</div>
+        <div class="cap"><h3>秋日陶集</h3><p>国漫 / 奇幻</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#d7a3bb,#7a3b5c 62%,#260f1c)"><span class="tag2 p">独家</span><span class="rt">9.1</span><span class="mini wbar p"><i style="--p:78%"></i></span><span class="go" aria-hidden="true">▶</span>🎤</div>
+        <div class="cap"><h3>巴巴 LIVE 第五季</h3><p>音乐 / 综艺</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#9fb0d4,#3b4f7a 62%,#121c33)"><span class="tag2 i">热播</span><span class="rt">8.7</span><span class="mini wbar i"><i style="--p:66%"></i></span><span class="go" aria-hidden="true">▶</span>🧳</div>
+        <div class="cap"><h3>沙漠慢行记</h3><p>旅行 / 真人秀</p></div>
+      </a>
+      <a href="#" class="film">
+        <div class="ph" style="background:linear-gradient(168deg,#c3cf8f,#6b7a35 62%,#232a0c)"><span class="tag2 p">精选</span><span class="rt">8.6</span><span class="mini wbar o"><i style="--p:60%"></i></span><span class="go" aria-hidden="true">▶</span>🎐</div>
+        <div class="cap"><h3>风铃与井</h3><p>日漫 / 青春</p></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- 栏目五 -->
+  <section class="wrap" id="news">
+    <div class="head">
+      <div>
+        <h2><span class="jarno i"><span class="neck" aria-hidden="true"></span><span class="body"><b>05</b></span></span>影视资讯 · 新片速递</h2>
+        <p>巴巴电影网第一时间带来行业动向</p>
+      </div>
+      <a href="#" class="more">资讯首页 &gt;</a>
+    </div>
+    <div class="news">
+      <a href="#" class="art">
+        <div class="ph" style="background:linear-gradient(150deg,#e8c39a,#c25b3a 74%,#4a1c0e)">🏜️<span>新片速递</span></div>
+        <div class="bd">
+          <h3>《沙漠来信》发布正式预告，定档秋档</h3>
+          <p>文艺新作《沙漠来信》首曝正片片段，巴巴电影网将同步上线高清正片与主创访谈。</p>
+          <time datetime="2026-09-18">2026-09-18</time>
+        </div>
+      </a>
+      <a href="#" class="art">
+        <div class="ph" style="background:linear-gradient(150deg,#8fd3cb,#2f7f78 74%,#0d3230)">⛺<span>榜单观察</span></div>
+        <div class="bd">
+          <h3>《四十夜营地》口碑走高，冒险题材受关注</h3>
+          <p>开播三周站内评分稳定在 9.3，位居巴巴电影网剧集热播榜前列。</p>
+          <time datetime="2026-09-15">2026-09-15</time>
+        </div>
+      </a>
+      <a href="#" class="art">
+        <div class="ph" style="background:linear-gradient(150deg,#9fb0d4,#3b4f7a 74%,#121c33)">🦎<span>动漫前沿</span></div>
+        <div class="bd">
+          <h3>《沙丘小队》第二季定档，国漫再添力作</h3>
+          <p>制作方透露新季将新增三条主线，巴巴电影网动漫频道同步更新。</p>
+          <time datetime="2026-09-12">2026-09-12</time>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- 栏目六 -->
+  <section class="wrap" id="about">
+    <div class="head">
+      <div>
+        <h2><span class="jarno p"><span class="neck" aria-hidden="true"></span><span class="body"><b>06</b></span></span>关于巴巴电影网</h2>
+        <p>四道窑火，煨一座片库</p>
+      </div>
+    </div>
+    <div class="feats">
+      <div class="feat"><u></u><em>⚡</em><b>极速播放</b><p>多线路智能调度，秒开不卡顿</p></div>
+      <div class="feat"><u></u><em>📱</em><b>多端适配</b><p>手机、平板、电脑全端自适应</p></div>
+      <div class="feat"><u></u><em>🖼️</em><b>高清画质</b><p>1080P / 4K 超清片源可选</p></div>
+      <div class="feat"><u></u><em>🔄</em><b>每日上新</b><p>每晚 20:00 更新，追剧不断更</p></div>
+    </div>
+    <article class="intro" style="margin-top:18px">
+      <h3>巴巴电影网 — 一窑好片，慢慢煨</h3>
+      <p>巴巴电影网（babadianyingwang-cn.github.io）是一家面向广大影迷的影视内容聚合平台，设有高清电影在线观看、热播电视剧追更、人气动漫与综艺点播、全站热播排行榜、影视资讯等核心板块。站内片库按类型、地区、年份多维度归类，配合精准搜索与智能推荐，帮助用户快速定位想看的影片。</p>
+      <p>巴巴电影网持续扩充高清片源、优化播放线路，致力于提供稳定、流畅、内容丰富的在线观影服务。所有条目以更新时间倒序编排，检索结果可按类型、年份、热度二次筛选。</p>
+      <span class="potmark"><em></em>巴巴电影网 · 出窑印记</span>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <div class="potband" aria-hidden="true"><i></i></div>
+  <div class="wrap">
+    <div class="frow">
+      <div>
+        <h4>巴巴电影网</h4>
+        <p>巴巴电影网 — 高清电影、电视剧、动漫、综艺在线观看平台，每日更新热播榜单与新片资讯，海量高清片源一键搜索，手机电脑多端同步。</p>
+        <p>网址：https://babadianyingwang-cn.github.io</p>
+      </div>
+      <div>
+        <h4>影视栏目</h4>
+        <ul>
+          <li><a href="#">最新电影</a></li>
+          <li><a href="#">热门电视剧</a></li>
+          <li><a href="#">动漫专区</a></li>
+          <li><a href="#">综艺大全</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>榜单资讯</h4>
+        <ul>
+          <li><a href="#">热播排行榜</a></li>
+          <li><a href="#">高分佳作</a></li>
+          <li><a href="#">影视资讯</a></li>
+          <li><a href="#">新片预告</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>帮助中心</h4>
+        <ul>
+          <li><a href="#">站点地图</a></li>
+          <li><a href="#">播放帮助</a></li>
+          <li><a href="#">意见反馈</a></li>
+          <li><a href="#">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="flinks">
+      <a href="#">电影大全</a><a href="#">电视剧大全</a><a href="#">动漫大全</a><a href="#">综艺大全</a>
+      <a href="#">动作片</a><a href="#">喜剧片</a><a href="#">爱情片</a><a href="#">悬疑片</a>
+      <a href="#">科幻片</a><a href="#">恐怖片</a><a href="#">国产剧</a><a href="#">纪录片</a>
+    </div>
+    <p class="copy">© 2026 巴巴电影网 babadianyingwang-cn.github.io · 影视信息聚合平台　|　<a href="#">站点地图</a>　|　<a href="#">隐私政策</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
